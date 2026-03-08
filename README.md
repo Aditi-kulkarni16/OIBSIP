@@ -1,15 +1,31 @@
-Sales Prediction using Machine Learning
-Project Overview
+OIBSIP - Oasis Infobyte Internship Tasks 🚀
 
-Sales Prediction is the process of estimating the future sales of a product based on various factors such as advertising budget, target audience, and marketing platforms. Businesses use these predictions to make better marketing and financial decisions.
+This repository contains the project completed as part of the Data Science / Machine Learning learning project.
 
-This project uses Machine Learning with Python to predict product sales based on advertising expenditure on different platforms such as TV, Radio, and Newspaper.
+📂 Projects in This Repository
+1. Sales Prediction using Machine Learning 📊
 
-Objective
+Folder: Sales-Prediction-ML
 
-The main objective of this project is to build a machine learning model that can predict sales based on advertising data. This helps businesses understand how marketing investments influence product sales.
+Description
 
-Technologies Used
+Sales Prediction is a machine learning project that predicts the future sales of a product based on advertising budgets spent on different platforms such as TV, Radio, and Newspaper.
+
+The model analyzes historical advertising data and predicts how much sales can be expected depending on marketing investments.
+
+Features
+
+Loads an advertising dataset (advertising.csv)
+
+Performs data preprocessing and feature selection
+
+Trains a Linear Regression model
+
+Evaluates the model performance
+
+Predicts sales based on new advertising input
+
+🛠 Tools & Technologies
 
 Python
 
@@ -21,22 +37,55 @@ Matplotlib
 
 Scikit-learn
 
-Machine Learning Algorithm
+📊 Machine Learning Algorithm
 
 Linear Regression
 
-Linear Regression is used to model the relationship between advertising expenditure and product sales.
+Linear Regression is used to understand the relationship between advertising budgets and product sales and to predict future sales.
 
-Dataset
+📌 How to Use
 
-The dataset contains information about advertising budgets on different platforms and the corresponding sales.
+Clone the repository
 
-Dataset Features
+git clone https://github.com/yourusername/sales-prediction-ml.git
 
-TV – Advertising budget spent on TV
+Navigate to the project folder
 
-Radio – Advertising budget spent on Radio
+cd sales-prediction-ml
 
-Newspaper – Advertising budget spent on Newspaper
+Install required libraries
 
-Sales – Product sales
+pip install pandas numpy matplotlib scikit-learn
+
+Run the Python file
+
+python sales_prediction.py
+
+The program will train the model and predict sales based on the advertising data.
+
+🎯 Purpose
+
+This project demonstrates practical knowledge of:
+
+Data preprocessing
+
+Machine learning model training
+
+Data analysis
+
+Predictive modeling using Python
+
+📈 Applications
+
+Business sales forecasting
+
+Marketing strategy planning
+
+Advertising budget optimization
+
+Data-driven decision making
+
+👩‍💻 Author
+
+Aditi Kulkarni
+TYBSc Computer Science
