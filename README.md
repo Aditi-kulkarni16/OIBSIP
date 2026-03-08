@@ -43,13 +43,8 @@ Linear Regression
 
 Linear Regression is used to understand the relationship between advertising budgets and product sales and to predict future sales.
 
-📌 How to Use
 
-Clone the repository
 
-git clone https://github.com/yourusername/sales-prediction-ml.git
-
-Navigate to the project folder
 
 cd sales-prediction-ml
 
